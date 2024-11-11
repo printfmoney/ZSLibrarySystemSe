@@ -6,37 +6,37 @@
 
 ## 需求分析
 - 学生功能模块图如下图所示
-![学生功能模块图](assets/%E5%AD%A6%E7%94%9F%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE.png)
+![学生功能模块图](http://aqara.cloverkim.com/student_function.png)
 
 - 管理员功能模块图如下图所示
-![管理员功能模块图](assets/%E7%AE%A1%E7%90%86%E5%91%98%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE.png)
+![管理员功能模块图](http://aqara.cloverkim.com/manager_function.png)
 
 
-- 图书功能模块如下图所示![图书功能图](assets/%E5%9B%BE%E4%B9%A6%E5%8A%9F%E8%83%BD%E5%9B%BE.png)
+- 图书功能模块如下图所示![图书功能图](http://aqara.cloverkim.com/book_function.png)
 
 
 ## 系统设计
 ### 总体设计
 在总体设计阶段描述系统功能的划分，绘制层次图，说明如下内容整个系统分成那些模块，每个模块实现的功能。
-后台基础信息管理模块图如下图所示![后台基础信息管理模块图](assets/%E5%90%8E%E5%8F%B0%E5%9F%BA%E7%A1%80%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%A8%A1%E5%9D%97%E5%9B%BE.png)
+后台基础信息管理模块图如下图所示![后台基础信息管理模块图](http://aqara.cloverkim.com/base_manager.png)
 
 ### 详细设计
 随着信息技术的快速发展，越来越多的组织开始重视信息化建设。在这一背景下，图书管理系统的出现，是为图书管理工作的信息化提供了更多的解决方案。该系统由多个模块组成，系统管理员、图书管理员、学生等模块。能够方便系统管理员各项工作进行跟踪和管理，提高工作效率的同时也能够方便学生进行实时学习和参加各项活动。
-系统功能设计图如下图所示![系统功能设计图](assets/%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E8%AE%BE%E8%AE%A1%E5%9B%BE.png)
+系统功能设计图如下图所示![系统功能设计图](http://aqara.cloverkim.com/system_function.png)
 
 ## 数据库设计
 ### 概念结构设计
 - Book表E-R图
-![Book表E-R图](assets/Book%E8%A1%A8E-R%E5%9B%BE.png)
+![Book表E-R图](http://aqara.cloverkim.com/Book_E-R.png)
 
 - Worker表E-R图
-![Worker表E-R图](assets/Worker%E8%A1%A8E-R%E5%9B%BE.png)
+![Worker表E-R图](http://aqara.cloverkim.com/Worker_E-R.png)
 
 - Manager表E-R图
-![Manager表E-R图](assets/Manager%E8%A1%A8E-R%E5%9B%BE.png)
+![Manager表E-R图](http://aqara.cloverkim.com/Manager_E-R.png)
 
 - Student表E-R图
-![Student表E-R图](assets/Student%E8%A1%A8E-R%E5%9B%BE.png)
+![Student表E-R图](http://aqara.cloverkim.com/Manager_E-R.png)
 
 ### 逻辑结构设计
 根据上述主要E-R图设计、实体之间的转换规则以及系统实际需求，下面罗列系统数据结构：
@@ -91,7 +91,7 @@
 - 数据库连接和操作：使用JDBC来处理数据持久化，连接到数据库（MySQL）
 - 服务类：bookmapper类、managermapper类、recordsmapper类、workermapper类分别处理书籍、图书管理员、系统管理员信息的添加、删除、修改、查找等操作。
 
-### 系统首页![图书界面图](assets/%E5%9B%BE%E4%B9%A6%E7%95%8C%E9%9D%A2%E5%9B%BE.png)
+### 系统首页![图书界面图](http://aqara.cloverkim.com/system_home.png)
 
 ## 系统测试
 ### 测试方法
